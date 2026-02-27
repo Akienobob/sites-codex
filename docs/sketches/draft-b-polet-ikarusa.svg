@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2200" viewBox="0 0 1600 2200" role="img" aria-labelledby="title desc">
+  <title id="title">Старый Икарус — Набросок B Полет Икаруса Graphite</title>
+  <desc id="desc">Динамичный монохромный эскиз с детальной эмблемой автобуса с крыльями и выразительным солнечным контуром.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b1c1f"/>
+      <stop offset="55%" stop-color="#0f1115"/>
+      <stop offset="100%" stop-color="#2a2d33"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="70%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#fff3a0" stop-opacity="1"/>
+      <stop offset="32%" stop-color="#ffbf58" stop-opacity="0.96"/>
+      <stop offset="66%" stop-color="#ff7642" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff3b30" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f3f3"/>
+      <stop offset="50%" stop-color="#ced2d8"/>
+      <stop offset="100%" stop-color="#6d737d"/>
+    </linearGradient>
+    <style>
+      .h1{font:700 54px 'Cormorant Garamond', Georgia, serif; fill:#f6f7fb}
+      .h2{font:700 34px 'Cormorant Garamond', Georgia, serif; fill:#eceef3}
+      .text{font:400 21px 'Inter', Arial, sans-serif; fill:#d5d9e2}
+      .small{font:400 18px 'Inter', Arial, sans-serif; fill:#b7bdc9}
+      .chip{font:700 18px 'Inter', Arial, sans-serif; fill:#151820}
+    </style>
+  </defs>
+
+  <rect width="1600" height="2200" fill="url(#bg)"/>
+
+  <rect x="96" y="84" width="1408" height="96" rx="20" fill="#efefef"/>
+  <text x="150" y="145" class="h2" fill="#11141a">Старый Икарус</text>
+  <rect x="1268" y="108" width="180" height="50" rx="24" fill="#141821"/>
+  <text x="1318" y="141" class="chip">RU | EN</text>
+
+  <rect x="96" y="224" width="1408" height="650" rx="36" fill="#12151b" stroke="#3b404a"/>
+  <circle cx="1170" cy="470" r="300" fill="url(#sun)"/>
+
+  <path d="M200 760 C470 390 910 290 1260 440" fill="none" stroke="#ffc66f" stroke-opacity="0.55" stroke-width="4" stroke-dasharray="16 12"/>
+
+  <g transform="translate(480 415) rotate(-7)">
+    <path d="M85 235 C-34 148 -104 138 -171 170 C-98 177 -25 208 45 281 Z" fill="#f0f2f6" opacity="0.95"/>
+    <path d="M37 253 C-55 188 -108 178 -153 198 C-88 204 -37 227 0 290 Z" fill="#d7dbe3" opacity="0.9"/>
+    <path d="M9 271 C-55 230 -94 227 -129 241 C-80 245 -44 267 -14 302 Z" fill="#bac0cb" opacity="0.88"/>
+
+    <path d="M575 235 C694 148 764 138 831 170 C758 177 685 208 615 281 Z" fill="#f0f2f6" opacity="0.95"/>
+    <path d="M623 253 C715 188 768 178 813 198 C748 204 697 227 660 290 Z" fill="#d7dbe3" opacity="0.9"/>
+    <path d="M651 271 C715 230 754 227 789 241 C740 245 704 267 674 302 Z" fill="#bac0cb" opacity="0.88"/>
+
+    <rect x="88" y="196" width="484" height="194" rx="36" fill="url(#panel)" stroke="#f9f9fa" stroke-opacity="0.45"/>
+    <path d="M88 282 H572" stroke="#535864" stroke-width="5"/>
+
+    <rect x="130" y="224" width="82" height="53" rx="11" fill="#1e242f"/>
+    <rect x="224" y="224" width="82" height="53" rx="11" fill="#1e242f"/>
+    <rect x="318" y="224" width="82" height="53" rx="11" fill="#1e242f"/>
+    <rect x="412" y="224" width="132" height="53" rx="11" fill="#1e242f"/>
+
+    <rect x="112" y="298" width="140" height="24" rx="6" fill="#c53030"/>
+    <rect x="424" y="298" width="120" height="24" rx="6" fill="#ff8a39"/>
+
+    <path d="M140 344 H530" stroke="#d9dde3" stroke-width="4" stroke-dasharray="12 8"/>
+
+    <circle cx="190" cy="399" r="40" fill="#161b22"/>
+    <circle cx="480" cy="399" r="40" fill="#161b22"/>
+    <circle cx="190" cy="399" r="18" fill="#a1a8b4"/>
+    <circle cx="480" cy="399" r="18" fill="#a1a8b4"/>
+
+    <path d="M562 266 C720 238 872 248 980 306" fill="none" stroke="#ffcb6f" stroke-width="3" stroke-dasharray="10 8"/>
+  </g>
+
+  <text x="132" y="340" class="h1">Полет Икаруса — Graphite</text>
+  <text x="132" y="386" class="text">Динамичный эскиз с художественным акцентом на узнаваемом детальном автобусе.</text>
+  <text x="132" y="424" class="text">Цветовая база: графит, чёрный, серебристый, белый; тепло только в солнце.</text>
+
+  <text x="96" y="965" class="h2">Лента жанров</text>
+  <rect x="96" y="994" width="330" height="72" rx="36" fill="#f0f1f3"/>
+  <rect x="444" y="994" width="330" height="72" rx="36" fill="#dbdde2"/>
+  <rect x="792" y="994" width="330" height="72" rx="36" fill="#c7ccd5"/>
+  <rect x="1140" y="994" width="364" height="72" rx="36" fill="#b4bbc7"/>
+  <text x="186" y="1038" class="chip">folk-rock</text>
+  <text x="555" y="1038" class="chip">blues</text>
+  <text x="912" y="1038" class="chip">jazz</text>
+  <text x="1230" y="1038" class="chip">psychedelic</text>
+
+  <text x="96" y="1165" class="h2">Глубокие тексты</text>
+  <rect x="96" y="1194" width="670" height="265" rx="18" fill="#141922" stroke="#434955"/>
+  <rect x="834" y="1194" width="670" height="265" rx="18" fill="#141922" stroke="#434955"/>
+  <text x="136" y="1300" class="text">«Пыль дорог — это память, которую не стирает ни дождь, ни время»</text>
+  <text x="874" y="1300" class="text">«Мы летим к солнцу не за светом, а за правдой»</text>
+
+  <text x="96" y="1550" class="h2">Медиа</text>
+  <rect x="96" y="1580" width="440" height="290" rx="18" fill="#141922" stroke="#434955"/>
+  <rect x="580" y="1580" width="440" height="290" rx="18" fill="#141922" stroke="#434955"/>
+  <rect x="1064" y="1580" width="440" height="290" rx="18" fill="#141922" stroke="#434955"/>
+  <text x="138" y="1735" class="small">Photo story</text>
+  <text x="626" y="1735" class="small">Live snippets</text>
+  <text x="1110" y="1735" class="small">Backstage archive</text>
+
+  <text x="96" y="1986" class="h2">Контакты</text>
+  <rect x="96" y="2014" width="1408" height="108" rx="14" fill="#efefef"/>
+  <text x="144" y="2080" class="text" fill="#171b22">booking@old-ikarus.band · Telegram · VK · YouTube</text>
+
+  <text x="128" y="2152" class="small">© Старый Икарус</text>
+  <text x="1328" y="2152" class="small">Impressum (DE)</text>
+</svg>

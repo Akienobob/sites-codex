@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2200" viewBox="0 0 1600 2200" role="img" aria-labelledby="title desc">
+  <title id="title">Старый Икарус — Набросок A Свет Эллады Noir</title>
+  <desc id="desc">Художественный эскиз главной страницы с детальным крылатым автобусом в монохромной гамме и тёплым солнцем.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1012"/>
+      <stop offset="100%" stop-color="#1f2125"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#ffe47a" stop-opacity="0.98"/>
+      <stop offset="55%" stop-color="#ff944a" stop-opacity="0.86"/>
+      <stop offset="100%" stop-color="#ff4f30" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f0ef"/>
+      <stop offset="35%" stop-color="#c8cbcf"/>
+      <stop offset="70%" stop-color="#8a8e96"/>
+      <stop offset="100%" stop-color="#5f646d"/>
+    </linearGradient>
+    <linearGradient id="wingFeather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f7f7"/>
+      <stop offset="60%" stop-color="#cfd2d8"/>
+      <stop offset="100%" stop-color="#8a9099"/>
+    </linearGradient>
+    <style>
+      .h1{font:700 52px 'Cormorant Garamond', Georgia, serif; fill:#f7f7f7; letter-spacing:0.5px}
+      .h2{font:700 34px 'Cormorant Garamond', Georgia, serif; fill:#f1f2f4}
+      .text{font:400 21px 'Inter', Arial, sans-serif; fill:#d8dae0}
+      .small{font:400 18px 'Inter', Arial, sans-serif; fill:#b8bcc6}
+      .chip{font:700 18px 'Inter', Arial, sans-serif; fill:#1a1d22}
+    </style>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="2200" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1528" height="2128" fill="none" stroke="#666b76" stroke-width="1.5"/>
+  <rect x="58" y="58" width="1484" height="2084" fill="none" stroke="#484c55" stroke-width="1" stroke-dasharray="14 8"/>
+
+  <rect x="110" y="90" width="1380" height="94" rx="18" fill="#f2f2f2" opacity="0.94"/>
+  <text x="160" y="147" class="h2" fill="#191b20">Старый Икарус</text>
+  <rect x="1240" y="113" width="170" height="48" rx="24" fill="#111319"/>
+  <text x="1288" y="145" class="chip">RU | EN</text>
+
+  <rect x="110" y="230" width="1380" height="620" rx="34" fill="#15171c" stroke="#3f434d"/>
+  <circle cx="1120" cy="470" r="250" fill="url(#sunGlow)"/>
+
+  <g transform="translate(300 358)" filter="url(#shadow)">
+    <path d="M160 176 C68 90 5 76 -56 109 C18 119 73 152 123 214 Z" fill="url(#wingFeather)" opacity="0.95"/>
+    <path d="M113 187 C36 117 -11 104 -54 126 C2 136 51 162 88 218 Z" fill="#eaecf1" opacity="0.9"/>
+    <path d="M72 197 C17 150 -11 144 -33 155 C4 164 29 181 58 219 Z" fill="#d9dde4" opacity="0.9"/>
+
+    <path d="M502 176 C594 90 657 76 718 109 C644 119 589 152 539 214 Z" fill="url(#wingFeather)" opacity="0.95"/>
+    <path d="M549 187 C626 117 673 104 716 126 C660 136 611 162 574 218 Z" fill="#eaecf1" opacity="0.9"/>
+    <path d="M590 197 C645 150 673 144 695 155 C658 164 633 181 604 219 Z" fill="#d9dde4" opacity="0.9"/>
+
+    <rect x="130" y="158" width="420" height="176" rx="34" fill="url(#metal)" stroke="#f5f5f5" stroke-opacity="0.4"/>
+    <path d="M130 233 H550" stroke="#575c66" stroke-width="4"/>
+    <rect x="166" y="187" width="74" height="48" rx="10" fill="#232832"/>
+    <rect x="252" y="187" width="74" height="48" rx="10" fill="#232832"/>
+    <rect x="338" y="187" width="74" height="48" rx="10" fill="#232832"/>
+    <rect x="424" y="187" width="90" height="48" rx="10" fill="#232832"/>
+
+    <path d="M150 277 H530" stroke="#cfd2d8" stroke-width="3" stroke-dasharray="14 8"/>
+    <rect x="170" y="260" width="42" height="22" rx="4" fill="#cf3333"/>
+    <rect x="470" y="260" width="42" height="22" rx="4" fill="#ff9f42"/>
+
+    <circle cx="208" cy="336" r="34" fill="#16191f"/>
+    <circle cx="472" cy="336" r="34" fill="#16191f"/>
+    <circle cx="208" cy="336" r="15" fill="#9da3ad"/>
+    <circle cx="472" cy="336" r="15" fill="#9da3ad"/>
+
+    <path d="M542 214 C748 181 874 160 996 198" fill="none" stroke="#f7d36f" stroke-width="3" stroke-dasharray="12 10" opacity="0.9"/>
+  </g>
+
+  <text x="840" y="335" class="h1">Свет Эллады — Noir</text>
+  <text x="840" y="380" class="text">Детальный крылатый автобус: узнаваемый силуэт, объёмный металл, живые перья.</text>
+  <text x="840" y="417" class="text">Фон: чёрный/серый, акценты только в солнечном спектре (жёлтый → оранжевый → красный).</text>
+
+  <rect x="110" y="900" width="1380" height="250" rx="18" fill="#16191f" stroke="#3e434f"/>
+  <text x="160" y="976" class="h2">Философия группы</text>
+  <text x="160" y="1022" class="text">«Каждый рейс — попытка перелететь собственные пределы и не потерять человеческий голос»</text>
+  <text x="160" y="1062" class="small">Греческий меандр, контрастный текст и глубокая типографика на тёмном фоне.</text>
+
+  <text x="110" y="1240" class="h2">Музыка</text>
+  <rect x="110" y="1270" width="430" height="230" rx="16" fill="#181b21" stroke="#454a55"/>
+  <rect x="585" y="1270" width="430" height="230" rx="16" fill="#181b21" stroke="#454a55"/>
+  <rect x="1060" y="1270" width="430" height="230" rx="16" fill="#181b21" stroke="#454a55"/>
+  <text x="148" y="1358" class="text">Альбом: «Солнце на рельсах»</text>
+  <text x="623" y="1358" class="text">EP: «Над бездной дорог»</text>
+  <text x="1098" y="1358" class="text">Live: «Дыхание пути»</text>
+
+  <text x="110" y="1590" class="h2">Медиа</text>
+  <rect x="110" y="1620" width="680" height="280" rx="16" fill="#181b21" stroke="#454a55"/>
+  <rect x="810" y="1620" width="680" height="280" rx="16" fill="#181b21" stroke="#454a55"/>
+  <text x="150" y="1768" class="text">Фото: сцена, репетиции, backstage</text>
+  <text x="850" y="1768" class="text">Видео: live-сессии и клипы</text>
+
+  <text x="110" y="1980" class="h2">Контакты</text>
+  <rect x="110" y="2010" width="1380" height="110" rx="14" fill="#f1f1f1"/>
+  <text x="160" y="2078" class="text" fill="#1a1d22">booking@old-ikarus.band · Telegram · VK · YouTube</text>
+
+  <text x="140" y="2152" class="small">© Старый Икарус</text>
+  <text x="1320" y="2152" class="small">Impressum (DE)</text>
+</svg>

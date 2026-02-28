@@ -1,62 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000">
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2200" viewBox="0 0 1440 2200">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#101217"/>
-      <stop offset="1" stop-color="#1b1f28"/>
+      <stop offset="0%" stop-color="#f9f4ea"/>
+      <stop offset="100%" stop-color="#f2e7d2"/>
     </linearGradient>
-    <radialGradient id="sun" cx="72%" cy="26%" r="30%">
-      <stop offset="0" stop-color="#ffe89f"/>
-      <stop offset="0.45" stop-color="#ffaf58"/>
-      <stop offset="1" stop-color="#ff5a3a" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="bus" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f9fb"/><stop offset="0.45" stop-color="#d8dde5"/><stop offset="1" stop-color="#647082"/></linearGradient>
-    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f7f9"/><stop offset="0.6" stop-color="#d4dae3"/><stop offset="1" stop-color="#929cad"/></linearGradient>
     <style>
-      .h{font:700 44px 'Cormorant Garamond',serif;fill:#f1f2f6}
-      .t{font:400 21px Inter,Arial,sans-serif;fill:#d4dae4}
-      .s{font:700 30px 'Cormorant Garamond',serif;fill:#edf0f5}
+      .title{font:700 42px 'Georgia',serif;fill:#2E4057}
+      .h{font:700 30px 'Georgia',serif;fill:#2E4057}
+      .p{font:400 20px 'Arial',sans-serif;fill:#34495e}
+      .small{font:400 17px 'Arial',sans-serif;fill:#5a6b70}
+      .chip{font:700 18px 'Arial',sans-serif;fill:#2E4057}
     </style>
   </defs>
-  <rect width="1600" height="2000" fill="url(#bg)"/>
-  <circle cx="1140" cy="420" r="280" fill="url(#sun)"/>
+  <rect width="1440" height="2200" fill="url(#bg)"/>
 
-  <rect x="100" y="80" width="1400" height="92" rx="16" fill="#efefef"/>
-  <text x="148" y="136" style="font:700 34px 'Cormorant Garamond',serif;fill:#161b24">Старый Икарус</text>
-  <text x="1328" y="136" style="font:700 18px Inter,Arial,sans-serif;fill:#161b24">RU | EN</text>
+  <!-- Greek border -->
+  <rect x="26" y="26" width="1388" height="2148" fill="none" stroke="#9E7A43" stroke-width="4"/>
+  <rect x="44" y="44" width="1352" height="2112" fill="none" stroke="#c8aa74" stroke-width="2" stroke-dasharray="10 8"/>
 
-  <rect x="100" y="220" width="1400" height="620" rx="28" fill="#151a24" stroke="#3e4552"/>
-  <g transform="translate(300 290)">
-    <path d="M116 208 C32 145 -20 138 -76 164 C-16 170 40 194 90 246 Z" fill="url(#wing)"/>
-    <path d="M84 220 C20 173 -20 165 -56 186 C-14 192 22 214 62 250 Z" fill="#d6dce6"/>
-    <path d="M600 206 C684 143 736 136 792 162 C732 168 676 192 626 244 Z" fill="url(#wing)"/>
-    <path d="M632 218 C696 171 736 163 772 184 C730 190 694 212 654 248 Z" fill="#d6dce6"/>
+  <!-- Header -->
+  <rect x="90" y="90" rx="18" ry="18" width="1260" height="90" fill="#fff7ea" stroke="#d7bf93"/>
+  <text x="130" y="145" class="h">Старый Икарус</text>
+  <text x="990" y="145" class="chip">RU | EN</text>
 
-    <g transform="translate(110 50)">
-      <path d="M24 106 L524 76 C556 74 580 98 585 127 L594 228 C597 263 572 291 536 294 L38 321 C6 323 -20 298 -20 267 L-20 139 C-20 121 1 108 24 106 Z" fill="url(#bus)"/>
-      <path d="M-8 242 L592 218 L594 256 C597 285 572 311 542 314 L44 338 C11 341 -8 316 -8 286 Z" fill="#171e2b"/>
-      <g fill="#1f2837"><rect x="8" y="132" width="86" height="52" rx="8"/><rect x="102" y="128" width="86" height="52" rx="8"/><rect x="196" y="124" width="86" height="52" rx="8"/><rect x="290" y="120" width="86" height="52" rx="8"/><rect x="384" y="116" width="86" height="52" rx="8"/></g>
-      <path d="M20 200 L568 178" stroke="#697385" stroke-width="3"/>
-      <path d="M26 230 L374 216" stroke="#d5dbe5" stroke-width="3" stroke-dasharray="12 8"/>
-      <rect x="506" y="238" width="44" height="16" rx="4" fill="#ffaf45"/>
-      <rect x="554" y="236" width="30" height="16" rx="4" fill="#ca3131"/>
-      <circle cx="84" cy="332" r="42" fill="#121923"/><circle cx="84" cy="332" r="23" fill="#a6b0bf"/>
-      <circle cx="442" cy="318" r="45" fill="#121923"/><circle cx="442" cy="318" r="25" fill="#a6b0bf"/>
-    </g>
-  </g>
+  <!-- Hero -->
+  <rect x="90" y="220" rx="26" ry="26" width="1260" height="500" fill="#fffdf8" stroke="#dac9a7"/>
+  <circle cx="1070" cy="390" r="135" fill="#f6d27a" opacity="0.75"/>
+  <circle cx="1070" cy="390" r="185" fill="#f6d27a" opacity="0.18"/>
 
-  <text x="840" y="340" class="h">Свет Эллады — детализированный Икарус</text>
-  <text x="840" y="382" class="t">Реалистичный боковой силуэт автобуса и крылья по бокам, как у птицы.</text>
+  <!-- Winged bus icon -->
+  <rect x="290" y="390" width="300" height="110" rx="18" fill="#2E4057"/>
+  <rect x="322" y="420" width="72" height="45" rx="6" fill="#eaf2f9"/>
+  <rect x="406" y="420" width="72" height="45" rx="6" fill="#eaf2f9"/>
+  <rect x="490" y="420" width="72" height="45" rx="6" fill="#eaf2f9"/>
+  <circle cx="355" cy="520" r="20" fill="#26384d"/>
+  <circle cx="530" cy="520" r="20" fill="#26384d"/>
+  <path d="M265 430 Q175 350 120 395 Q185 410 245 470" fill="#d9e7f5" stroke="#8ca8c7" stroke-width="3"/>
+  <path d="M615 430 Q705 350 760 395 Q695 410 635 470" fill="#d9e7f5" stroke="#8ca8c7" stroke-width="3"/>
+  <path d="M610 445 Q830 390 920 395" fill="none" stroke="#9E7A43" stroke-width="3" stroke-dasharray="10 10"/>
 
-  <text x="100" y="940" class="s">Философия группы</text>
-  <rect x="100" y="968" width="1400" height="180" rx="14" fill="#171d28" stroke="#404857"/>
-  <text x="140" y="1068" class="t">«Каждый рейс — путь к свету, который мы ищем внутри себя»</text>
+  <text x="760" y="320" class="title">Свет Эллады</text>
+  <text x="760" y="355" class="p">Фолк-рок, блюз, джаз и психоделика</text>
+  <text x="760" y="390" class="p">с философскими текстами о пути и солнце</text>
 
-  <text x="100" y="1240" class="s">Музыка · Медиа · Контакты</text>
-  <rect x="100" y="1270" width="450" height="220" rx="14" fill="#171d28" stroke="#404857"/>
-  <rect x="575" y="1270" width="450" height="220" rx="14" fill="#171d28" stroke="#404857"/>
-  <rect x="1050" y="1270" width="450" height="220" rx="14" fill="#171d28" stroke="#404857"/>
+  <!-- philosophy -->
+  <rect x="90" y="760" rx="20" width="1260" height="250" fill="#fffdf8" stroke="#dac9a7"/>
+  <text x="130" y="825" class="h">Философия группы</text>
+  <text x="130" y="865" class="p">"Каждый рейс — попытка найти свет, который мы несём внутри"</text>
+  <text x="130" y="900" class="small">Короткий манифест, древнегреческий орнамент как разделитель, мягкий светлый фон.</text>
 
-  <rect x="100" y="1860" width="1400" height="80" rx="12" fill="#efefef"/>
-  <text x="140" y="1910" style="font:400 18px Inter,Arial,sans-serif;fill:#131923">© Старый Икарус</text>
-  <text x="1280" y="1910" style="font:400 18px Inter,Arial,sans-serif;fill:#131923">Impressum (DE)</text>
+  <!-- music cards -->
+  <text x="90" y="1080" class="h">Музыка</text>
+  <rect x="90" y="1110" rx="16" width="390" height="220" fill="#fffdf8" stroke="#dac9a7"/>
+  <rect x="525" y="1110" rx="16" width="390" height="220" fill="#fffdf8" stroke="#dac9a7"/>
+  <rect x="960" y="1110" rx="16" width="390" height="220" fill="#fffdf8" stroke="#dac9a7"/>
+  <text x="120" y="1180" class="p">Альбом I</text>
+  <text x="555" y="1180" class="p">Альбом II</text>
+  <text x="990" y="1180" class="p">Live EP</text>
+
+  <!-- media -->
+  <text x="90" y="1410" class="h">Медиа</text>
+  <rect x="90" y="1440" rx="16" width="620" height="260" fill="#fffdf8" stroke="#dac9a7"/>
+  <rect x="730" y="1440" rx="16" width="620" height="260" fill="#fffdf8" stroke="#dac9a7"/>
+  <text x="120" y="1580" class="p">Фото / видео сетка</text>
+  <text x="760" y="1580" class="p">Концертные фрагменты</text>
+
+  <!-- contacts -->
+  <text x="90" y="1780" class="h">Контакты</text>
+  <rect x="90" y="1810" rx="16" width="1260" height="170" fill="#fffdf8" stroke="#dac9a7"/>
+  <text x="130" y="1885" class="p">booking@old-ikarus.band · VK · YouTube · Telegram</text>
+
+  <!-- footer -->
+  <rect x="90" y="2030" rx="14" width="1260" height="90" fill="#fff7ea" stroke="#d7bf93"/>
+  <text x="130" y="2087" class="small">© Старый Икарус</text>
+  <text x="1140" y="2087" class="small">Impressum (DE)</text>
 </svg>

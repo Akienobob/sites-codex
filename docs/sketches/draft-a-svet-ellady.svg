@@ -1,160 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2200" viewBox="0 0 1600 2200" role="img" aria-labelledby="title desc">
-  <title id="title">Старый Икарус — Набросок A Свет Эллады Noir</title>
-  <desc id="desc">Художественный эскиз с проработанным крылатым автобусом Икарус в монохромной гамме и солнечным акцентом.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0e0f12"/>
-      <stop offset="100%" stop-color="#1d2026"/>
+      <stop offset="0" stop-color="#101217"/>
+      <stop offset="1" stop-color="#1b1f28"/>
     </linearGradient>
-    <radialGradient id="sunGlow" cx="68%" cy="38%" r="40%">
-      <stop offset="0%" stop-color="#ffe68b" stop-opacity="1"/>
-      <stop offset="42%" stop-color="#ffb25a" stop-opacity="0.94"/>
-      <stop offset="72%" stop-color="#ff7040" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#ff3f2a" stop-opacity="0"/>
+    <radialGradient id="sun" cx="72%" cy="26%" r="30%">
+      <stop offset="0" stop-color="#ffe89f"/>
+      <stop offset="0.45" stop-color="#ffaf58"/>
+      <stop offset="1" stop-color="#ff5a3a" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="bodyMetal" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f6f7f8"/>
-      <stop offset="28%" stop-color="#d7dbe1"/>
-      <stop offset="60%" stop-color="#a2a8b3"/>
-      <stop offset="100%" stop-color="#606775"/>
-    </linearGradient>
-    <linearGradient id="bodyShadow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#202530"/>
-      <stop offset="100%" stop-color="#11151d"/>
-    </linearGradient>
-    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f5f6f8"/>
-      <stop offset="55%" stop-color="#d5dae2"/>
-      <stop offset="100%" stop-color="#8d96a4"/>
-    </linearGradient>
+    <linearGradient id="bus" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f9fb"/><stop offset="0.45" stop-color="#d8dde5"/><stop offset="1" stop-color="#647082"/></linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f7f9"/><stop offset="0.6" stop-color="#d4dae3"/><stop offset="1" stop-color="#929cad"/></linearGradient>
     <style>
-      .h1{font:700 50px 'Cormorant Garamond', Georgia, serif; fill:#f6f7fb}
-      .h2{font:700 34px 'Cormorant Garamond', Georgia, serif; fill:#eceff4}
-      .text{font:400 21px 'Inter', Arial, sans-serif; fill:#d8dde7}
-      .small{font:400 18px 'Inter', Arial, sans-serif; fill:#b8bfca}
-      .chip{font:700 18px 'Inter', Arial, sans-serif; fill:#151923}
+      .h{font:700 44px 'Cormorant Garamond',serif;fill:#f1f2f6}
+      .t{font:400 21px Inter,Arial,sans-serif;fill:#d4dae4}
+      .s{font:700 30px 'Cormorant Garamond',serif;fill:#edf0f5}
     </style>
-    <filter id="shadow" x="-30%" y="-40%" width="180%" height="200%">
-      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
-    </filter>
   </defs>
+  <rect width="1600" height="2000" fill="url(#bg)"/>
+  <circle cx="1140" cy="420" r="280" fill="url(#sun)"/>
 
-  <rect width="1600" height="2200" fill="url(#bg)"/>
-  <rect x="34" y="34" width="1532" height="2132" fill="none" stroke="#666c78" stroke-width="1.3"/>
-  <rect x="56" y="56" width="1488" height="2088" fill="none" stroke="#474c57" stroke-width="1" stroke-dasharray="12 8"/>
+  <rect x="100" y="80" width="1400" height="92" rx="16" fill="#efefef"/>
+  <text x="148" y="136" style="font:700 34px 'Cormorant Garamond',serif;fill:#161b24">Старый Икарус</text>
+  <text x="1328" y="136" style="font:700 18px Inter,Arial,sans-serif;fill:#161b24">RU | EN</text>
 
-  <rect x="108" y="90" width="1384" height="95" rx="18" fill="#f0f0f0"/>
-  <text x="158" y="148" class="h2" fill="#11161f">Старый Икарус</text>
-  <rect x="1240" y="112" width="176" height="50" rx="25" fill="#131923"/>
-  <text x="1290" y="145" class="chip">RU | EN</text>
+  <rect x="100" y="220" width="1400" height="620" rx="28" fill="#151a24" stroke="#3e4552"/>
+  <g transform="translate(300 290)">
+    <path d="M116 208 C32 145 -20 138 -76 164 C-16 170 40 194 90 246 Z" fill="url(#wing)"/>
+    <path d="M84 220 C20 173 -20 165 -56 186 C-14 192 22 214 62 250 Z" fill="#d6dce6"/>
+    <path d="M600 206 C684 143 736 136 792 162 C732 168 676 192 626 244 Z" fill="url(#wing)"/>
+    <path d="M632 218 C696 171 736 163 772 184 C730 190 694 212 654 248 Z" fill="#d6dce6"/>
 
-  <rect x="108" y="230" width="1384" height="640" rx="34" fill="#141822" stroke="#3c424d"/>
-  <circle cx="1138" cy="468" r="275" fill="url(#sunGlow)"/>
-
-  <g transform="translate(250 318)" filter="url(#shadow)">
-    <!-- left wing -->
-    <path d="M175 285 C48 184 -28 170 -110 211 C-19 220 72 258 148 338 Z" fill="url(#wing)"/>
-    <path d="M127 302 C30 231 -34 219 -94 243 C-26 252 42 281 97 347 Z" fill="#e4e8ef"/>
-    <path d="M89 318 C18 270 -29 262 -70 279 C-20 286 30 307 67 352 Z" fill="#cad1dc"/>
-    <path d="M170 290 C90 240 48 228 8 237" fill="none" stroke="#9ea8b7" stroke-width="2.3"/>
-    <path d="M134 304 C77 268 38 259 6 266" fill="none" stroke="#aeb7c5" stroke-width="1.9"/>
-
-    <!-- right wing -->
-    <path d="M768 276 C896 176 972 162 1054 203 C963 212 872 250 796 330 Z" fill="url(#wing)"/>
-    <path d="M816 293 C913 222 977 210 1037 234 C969 243 901 273 846 338 Z" fill="#e4e8ef"/>
-    <path d="M854 309 C925 261 972 253 1013 270 C963 278 913 299 876 344 Z" fill="#cad1dc"/>
-    <path d="M772 281 C852 231 894 219 934 228" fill="none" stroke="#9ea8b7" stroke-width="2.3"/>
-    <path d="M808 295 C865 259 904 250 936 257" fill="none" stroke="#aeb7c5" stroke-width="1.9"/>
-
-    <!-- bus body -->
-    <g transform="translate(170 170)">
-      <!-- top silhouette -->
-      <path d="M52 160 L560 132 C592 130 617 153 620 185 L627 298 C630 334 604 364 566 366 L65 392 C29 394 -2 367 -2 330 L-2 196 C-2 175 18 161 52 160 Z" fill="url(#bodyMetal)" stroke="#f8f8f8" stroke-opacity="0.55"/>
-
-      <!-- lower dark skirting -->
-      <path d="M8 312 L626 292 L628 326 C630 354 606 376 575 378 L68 404 C35 406 8 381 8 349 Z" fill="url(#bodyShadow)"/>
-
-      <!-- windshield + front mask -->
-      <path d="M514 170 L588 165 C603 164 617 176 619 192 L624 246 L514 250 Z" fill="#202632"/>
-      <path d="M514 250 L624 246 L626 292 L515 296 Z" fill="#2a313f"/>
-
-      <!-- side windows -->
-      <g fill="#1f2633">
-        <rect x="34" y="184" width="88" height="58" rx="9"/>
-        <rect x="131" y="181" width="88" height="58" rx="9"/>
-        <rect x="228" y="178" width="88" height="58" rx="9"/>
-        <rect x="325" y="175" width="88" height="58" rx="9"/>
-        <rect x="422" y="172" width="86" height="58" rx="9"/>
-      </g>
-      <g fill="#8fa2bd" opacity="0.22">
-        <rect x="40" y="192" width="18" height="42" rx="4"/>
-        <rect x="137" y="189" width="18" height="42" rx="4"/>
-        <rect x="234" y="186" width="18" height="42" rx="4"/>
-        <rect x="331" y="183" width="18" height="42" rx="4"/>
-        <rect x="428" y="180" width="18" height="42" rx="4"/>
-      </g>
-
-      <!-- door and panel lines -->
-      <path d="M440 246 L514 244 L515 346 L442 350 Z" fill="#b7bec9" opacity="0.44"/>
-      <path d="M442 245 L441 350" stroke="#e3e5ea" stroke-opacity="0.7"/>
-      <path d="M477 244 L477 348" stroke="#e3e5ea" stroke-opacity="0.7"/>
-      <path d="M20 260 L603 238" stroke="#707887" stroke-width="3.2"/>
-      <path d="M18 287 L610 266" stroke="#515867" stroke-width="2.2"/>
-
-      <!-- lights / grill -->
-      <rect x="538" y="308" width="42" height="16" rx="5" fill="#ffb145"/>
-      <rect x="584" y="306" width="28" height="16" rx="5" fill="#cf2f2f"/>
-      <rect x="18" y="320" width="28" height="14" rx="4" fill="#cf2f2f"/>
-      <path d="M64 332 L404 319" stroke="#d8dde5" stroke-width="3" stroke-dasharray="13 8"/>
-
-      <!-- wheels -->
-      <g>
-        <circle cx="120" cy="406" r="47" fill="#131821"/>
-        <circle cx="120" cy="406" r="26" fill="#a6adba"/>
-        <circle cx="120" cy="406" r="11" fill="#303744"/>
-        <path d="M120 380 V432 M94 406 H146 M103 389 L137 423 M137 389 L103 423" stroke="#727b89" stroke-width="2"/>
-      </g>
-      <g>
-        <circle cx="478" cy="392" r="50" fill="#131821"/>
-        <circle cx="478" cy="392" r="28" fill="#a6adba"/>
-        <circle cx="478" cy="392" r="12" fill="#303744"/>
-        <path d="M478 364 V420 M450 392 H506 M461 375 L495 409 M495 375 L461 409" stroke="#727b89" stroke-width="2"/>
-      </g>
-
-      <!-- nose details -->
-      <path d="M621 206 L642 220 L647 286 L626 292 Z" fill="#3c4452"/>
-      <path d="M621 187 L635 198 L640 246 L624 246 Z" fill="#5e6776"/>
-      <path d="M640 250 C720 232 786 232 870 264" fill="none" stroke="#ffcf74" stroke-width="3" stroke-dasharray="12 9"/>
+    <g transform="translate(110 50)">
+      <path d="M24 106 L524 76 C556 74 580 98 585 127 L594 228 C597 263 572 291 536 294 L38 321 C6 323 -20 298 -20 267 L-20 139 C-20 121 1 108 24 106 Z" fill="url(#bus)"/>
+      <path d="M-8 242 L592 218 L594 256 C597 285 572 311 542 314 L44 338 C11 341 -8 316 -8 286 Z" fill="#171e2b"/>
+      <g fill="#1f2837"><rect x="8" y="132" width="86" height="52" rx="8"/><rect x="102" y="128" width="86" height="52" rx="8"/><rect x="196" y="124" width="86" height="52" rx="8"/><rect x="290" y="120" width="86" height="52" rx="8"/><rect x="384" y="116" width="86" height="52" rx="8"/></g>
+      <path d="M20 200 L568 178" stroke="#697385" stroke-width="3"/>
+      <path d="M26 230 L374 216" stroke="#d5dbe5" stroke-width="3" stroke-dasharray="12 8"/>
+      <rect x="506" y="238" width="44" height="16" rx="4" fill="#ffaf45"/>
+      <rect x="554" y="236" width="30" height="16" rx="4" fill="#ca3131"/>
+      <circle cx="84" cy="332" r="42" fill="#121923"/><circle cx="84" cy="332" r="23" fill="#a6b0bf"/>
+      <circle cx="442" cy="318" r="45" fill="#121923"/><circle cx="442" cy="318" r="25" fill="#a6b0bf"/>
     </g>
   </g>
 
-  <text x="844" y="334" class="h1">Свет Эллады — Noir</text>
-  <text x="844" y="378" class="text">Более художественный Икарус: сложная форма кузова, ритм панелей, крылья с фактурой перьев.</text>
-  <text x="844" y="415" class="text">База только чёрный/серый/белый; тёплый спектр — исключительно солнце и световые следы.</text>
+  <text x="840" y="340" class="h">Свет Эллады — детализированный Икарус</text>
+  <text x="840" y="382" class="t">Реалистичный боковой силуэт автобуса и крылья по бокам, как у птицы.</text>
 
-  <rect x="108" y="922" width="1384" height="248" rx="18" fill="#161b24" stroke="#3f4652"/>
-  <text x="158" y="996" class="h2">Философия группы</text>
-  <text x="158" y="1041" class="text">«Каждый рейс — попытка перелететь собственные пределы и остаться живым внутри»</text>
-  <text x="158" y="1080" class="small">Античный ритм композиции, строгий контраст и воздушный солнечный центр.</text>
+  <text x="100" y="940" class="s">Философия группы</text>
+  <rect x="100" y="968" width="1400" height="180" rx="14" fill="#171d28" stroke="#404857"/>
+  <text x="140" y="1068" class="t">«Каждый рейс — путь к свету, который мы ищем внутри себя»</text>
 
-  <text x="108" y="1250" class="h2">Музыка</text>
-  <rect x="108" y="1278" width="432" height="228" rx="16" fill="#171c25" stroke="#464d5a"/>
-  <rect x="584" y="1278" width="432" height="228" rx="16" fill="#171c25" stroke="#464d5a"/>
-  <rect x="1060" y="1278" width="432" height="228" rx="16" fill="#171c25" stroke="#464d5a"/>
-  <text x="146" y="1366" class="text">Альбом: «Солнце на рельсах»</text>
-  <text x="622" y="1366" class="text">EP: «Над бездной дорог»</text>
-  <text x="1098" y="1366" class="text">Live: «Дыхание пути»</text>
+  <text x="100" y="1240" class="s">Музыка · Медиа · Контакты</text>
+  <rect x="100" y="1270" width="450" height="220" rx="14" fill="#171d28" stroke="#404857"/>
+  <rect x="575" y="1270" width="450" height="220" rx="14" fill="#171d28" stroke="#404857"/>
+  <rect x="1050" y="1270" width="450" height="220" rx="14" fill="#171d28" stroke="#404857"/>
 
-  <text x="108" y="1598" class="h2">Медиа</text>
-  <rect x="108" y="1626" width="684" height="278" rx="16" fill="#171c25" stroke="#464d5a"/>
-  <rect x="808" y="1626" width="684" height="278" rx="16" fill="#171c25" stroke="#464d5a"/>
-  <text x="148" y="1772" class="text">Фото: сцена, репетиции, backstage</text>
-  <text x="848" y="1772" class="text">Видео: live-сессии и клипы</text>
-
-  <text x="108" y="1988" class="h2">Контакты</text>
-  <rect x="108" y="2016" width="1384" height="106" rx="14" fill="#efefef"/>
-  <text x="158" y="2080" class="text" fill="#161b23">booking@old-ikarus.band · Telegram · VK · YouTube</text>
-
-  <text x="138" y="2154" class="small">© Старый Икарус</text>
-  <text x="1320" y="2154" class="small">Impressum (DE)</text>
+  <rect x="100" y="1860" width="1400" height="80" rx="12" fill="#efefef"/>
+  <text x="140" y="1910" style="font:400 18px Inter,Arial,sans-serif;fill:#131923">© Старый Икарус</text>
+  <text x="1280" y="1910" style="font:400 18px Inter,Arial,sans-serif;fill:#131923">Impressum (DE)</text>
 </svg>
